@@ -4,11 +4,14 @@
 	<meta charset="utf-8" />
 	<title>test_program</title>
 	<script>
-	    var array = [1,2,3,4]
-	    console.log(array);
+	    window.onload = function(){
+		var elem = document.getElemmentById("sample");
+		console.dir(elem.textContent);
+	    };
 	</script>
     </head>
     <body>
 	<a href="index.html">back</a>
+	<br><p id="sample">elemment</p>
     </body>
 </html>
